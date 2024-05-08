@@ -1,0 +1,47 @@
+ d0 =     341.9338863096158     
+ 
+ 
+ Position of the source:
+ 
+ x =     100.0000000000000     
+ y =     210.0000000000000     
+ z =     150.0000000000000     
+ 
+ 
+ There are             2  receivers
+ 
+ receiver             1  x_target,y_target,z_target =  
+    0.000000000000000         2300.000000000000         150.0000000000000     
+ closest grid point found at distance     1990.000000000000       in i,j,k =  
+            1           32           16
+ 
+ receiver             2  x_target,y_target,z_target =  
+    100.0000000000000         300.0000000000000         150.0000000000000     
+ closest grid point found at distance     0.000000000000000       in i,j,k =  
+           11           31           16
+ 
+ Courant number is    0.5280000000000000     
+ 
+ Time step #             5
+ Time:    6.3999998E-03  seconds
+ Max norm velocity vector V (m/s) =    7.3684515682421873E-004
+ Total energy =    6.4109957455088552E-003
+ Elapsed time in seconds =    1.9999999785795808E-003
+ Elapsed time in hh:mm:ss =    0 h 00 m 00 s
+ Mean elapsed time per time step in seconds =    3.9999999571591614E-004
+ 
+ saving seismograms
+ 
+ Time step #           100
+ Time:    0.1584000      seconds
+ Max norm velocity vector V (m/s) =     12.91581815042948     
+ Total energy =     10875025.74384626     
+ Elapsed time in seconds =    2.7000000001862645E-002
+ Elapsed time in hh:mm:ss =    0 h 00 m 00 s
+ Mean elapsed time per time step in seconds =    2.7000000001862643E-004
+ 
+ saving seismograms
+ 
+ 
+ End of the simulation
+ 

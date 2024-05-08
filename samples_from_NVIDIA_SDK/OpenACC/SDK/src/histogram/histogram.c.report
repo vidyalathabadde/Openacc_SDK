@@ -1,0 +1,32 @@
+* Line 38 contains the following statement
+#pragma acc enter data create(hist[0:256]) copyin(data[0:count])
+that has been as been translated into:
+#pragma omp target enter data map(to:data[0:count]) map(alloc:hist[0:256])
+
+
+* Line 40 contains the following statement
+#pragma acc data present(hist[0:256],data[0:count])
+that has been as been translated into:
+#pragma omp target data map(present,alloc:hist[0:256],data[0:count])
+
+
+* Line 42 contains the following statement
+#pragma acc kernels loop independent
+that has been as been translated into:
+#pragma omp target teams loop order(concurrent)
+* WARNING(s)! Please review the translation.
+  1. The kernels construct in OpenACC is a hint to the compiler of where it should look for parallelism. OpenMP does not have a direct translation for this construct.
+
+
+* Line 45 contains the following statement
+#pragma acc loop reduction(+:tmp0) reduction(+:tmp1) reduction(+:tmp2) reduction(+:tmp3)
+that has been as been translated into:
+#pragma omp loop reduction(+:tmp0) reduction(+:tmp1) reduction(+:tmp2) reduction(+:tmp3)
+
+
+* Line 56 contains the following statement
+#pragma acc exit data copyout(hist[0:256]) delete(data[0:count])
+that has been as been translated into:
+#pragma omp target exit data map(from:hist[0:256]) map(delete:data[0:count])
+
+

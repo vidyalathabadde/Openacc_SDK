@@ -1,0 +1,2288 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 7, Column: 18 }
+Function:        dinit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          dinit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 4, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 14, Column: 18 }
+Function:        finit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          finit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 11, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 21, Column: 18 }
+Function:        iinit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          iinit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 18, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 39, Column: 13 }
+Function:        fcheck
+Args:
+  - Callee:          printf
+  - String:          ' will not be inlined into '
+  - Caller:          fcheck
+    DebugLoc:        { File: '../../common/common.c', Line: 35, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 76, Column: 9 }
+Function:        dump
+Args:
+  - Callee:          printf
+  - String:          ' will not be inlined into '
+  - Caller:          dump
+    DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 78, Column: 9 }
+Function:        dump
+Args:
+  - Callee:          putchar
+  - String:          ' will not be inlined into '
+  - Caller:          dump
+    DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 83, Column: 16 }
+Function:        fread_float
+Args:
+  - Callee:          fopen
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+Function:        fread_float
+Args:
+  - Callee:          __isoc99_fscanf
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 91, Column: 5 }
+Function:        fread_float
+Args:
+  - Callee:          fclose
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 97, Column: 16 }
+Function:        fread_int
+Args:
+  - Callee:          fopen
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+Function:        fread_int
+Args:
+  - Callee:          __isoc99_fscanf
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 105, Column: 5 }
+Function:        fread_int
+Args:
+  - Callee:          fclose
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 7, Column: 18 }
+Function:        dinit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          dinit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 4, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 14, Column: 18 }
+Function:        finit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          finit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 11, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 21, Column: 18 }
+Function:        iinit_rand
+Args:
+  - Callee:          rand
+  - String:          ' will not be inlined into '
+  - Caller:          iinit_rand
+    DebugLoc:        { File: '../../common/common.c', Line: 18, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 39, Column: 13 }
+Function:        fcheck
+Args:
+  - Callee:          printf
+  - String:          ' will not be inlined into '
+  - Caller:          fcheck
+    DebugLoc:        { File: '../../common/common.c', Line: 35, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 76, Column: 9 }
+Function:        dump
+Args:
+  - Callee:          printf
+  - String:          ' will not be inlined into '
+  - Caller:          dump
+    DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 78, Column: 9 }
+Function:        dump
+Args:
+  - Callee:          putchar
+  - String:          ' will not be inlined into '
+  - Caller:          dump
+    DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 83, Column: 16 }
+Function:        fread_float
+Args:
+  - Callee:          fopen
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+Function:        fread_float
+Args:
+  - Callee:          __isoc99_fscanf
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 91, Column: 5 }
+Function:        fread_float
+Args:
+  - Callee:          fclose
+  - String:          ' will not be inlined into '
+  - Caller:          fread_float
+    DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            InstSunk
+DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+Function:        fread_float
+Args:
+  - String:          'sinking '
+  - Inst:            trunc
+    DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 97, Column: 16 }
+Function:        fread_int
+Args:
+  - Callee:          fopen
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+Function:        fread_int
+Args:
+  - Callee:          __isoc99_fscanf
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/common.c', Line: 105, Column: 5 }
+Function:        fread_int
+Args:
+  - Callee:          fclose
+  - String:          ' will not be inlined into '
+  - Caller:          fread_int
+    DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            InstSunk
+DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+Function:        fread_int
+Args:
+  - String:          'sinking '
+  - Inst:            trunc
+    DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 3, Column: 1 }
+Function:        dinit_rand
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.625000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 4, Column: 0 }
+Function:        dinit_rand
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function '''
+  - Function:        dinit_rand
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 6, Column: 19 }
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.16
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 7, Column: 18 }
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '44'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.16
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 7, Column: 18 }
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.13
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 8, Column: 1 }
+Function:        dinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 4, Column: 0 }
+Function:        dinit_rand
+Args:
+  - NumInstructions: '76'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 10, Column: 1 }
+Function:        finit_rand
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.625000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 11, Column: 0 }
+Function:        finit_rand
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function '''
+  - Function:        finit_rand
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 13, Column: 19 }
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.16
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 14, Column: 18 }
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '44'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.16
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 14, Column: 18 }
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.13
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 15, Column: 1 }
+Function:        finit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 11, Column: 0 }
+Function:        finit_rand
+Args:
+  - NumInstructions: '76'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 17, Column: 1 }
+Function:        iinit_rand
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.625000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 18, Column: 0 }
+Function:        iinit_rand
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function '''
+  - Function:        iinit_rand
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 20, Column: 19 }
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.14
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 21, Column: 18 }
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.13
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.14
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 21, Column: 18 }
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.11
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 22, Column: 1 }
+Function:        iinit_rand
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 18, Column: 0 }
+Function:        iinit_rand
+Args:
+  - NumInstructions: '48'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 27, Column: 5 }
+Function:        fcheck_rel
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.771918e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 24, Column: 1 }
+Function:        fcheck_rel
+Args:
+  - NumVRCopies:     '5'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.704485e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 25, Column: 0 }
+Function:        fcheck_rel
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        fcheck_rel
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 27, Column: 19 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 27, Column: 5 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.32
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 27, Column: 19 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.38
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 28, Column: 13 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.26
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.26
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 32, Column: 1 }
+Function:        fcheck_rel
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 25, Column: 0 }
+Function:        fcheck_rel
+Args:
+  - NumInstructions: '42'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 37, Column: 5 }
+Function:        fcheck
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.771918e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 34, Column: 1 }
+Function:        fcheck
+Args:
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.704485e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 35, Column: 0 }
+Function:        fcheck
+Args:
+  - NumStackBytes:   '8'
+  - String:          ' stack bytes in function '''
+  - Function:        fcheck
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 37, Column: 5 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.27
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.35
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 37, Column: 19 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.42
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.29
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 38, Column: 13 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.27.then.35.loopexit_crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 39, Column: 63 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.35
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 44, Column: 1 }
+Function:        fcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 35, Column: 0 }
+Function:        fcheck
+Args:
+  - NumInstructions: '52'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 46, Column: 1 }
+Function:        dcheck
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.258775e-01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 47, Column: 0 }
+Function:        dcheck
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        dcheck
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 49, Column: 19 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 49, Column: 5 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.23
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.29
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 49, Column: 19 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.33
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 50, Column: 13 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 54, Column: 1 }
+Function:        dcheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 47, Column: 0 }
+Function:        dcheck
+Args:
+  - NumInstructions: '36'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 59, Column: 5 }
+Function:        icheck
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.771918e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 56, Column: 1 }
+Function:        icheck
+Args:
+  - NumVRCopies:     '5'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.704485e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 57, Column: 0 }
+Function:        icheck
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        icheck
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 59, Column: 19 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 59, Column: 5 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.23
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.29
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 59, Column: 19 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.33
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 60, Column: 13 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.25
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 64, Column: 1 }
+Function:        icheck
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 57, Column: 0 }
+Function:        icheck
+Args:
+  - NumInstructions: '41'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 67, Column: 0 }
+Function:        calc_bandwidth
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        calc_bandwidth
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 68, Column: 37 }
+Function:        calc_bandwidth
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 67, Column: 0 }
+Function:        calc_bandwidth
+Args:
+  - NumInstructions: '8'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 72, Column: 1 }
+Function:        dump
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.625000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+Function:        dump
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function '''
+  - Function:        dump
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 75, Column: 19 }
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 76, Column: 24 }
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.14
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '43'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 76, Column: 24 }
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.12
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 78, Column: 9 }
+Function:        dump
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 73, Column: 0 }
+Function:        dump
+Args:
+  - NumInstructions: '76'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 87, Column: 5 }
+Function:        fread_float
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.382264e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 81, Column: 1 }
+Function:        fread_float
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.906250e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.244930e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '12'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.178697e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+Function:        fread_float
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function '''
+  - Function:        fread_float
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 83, Column: 16 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 84, Column: 9 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.20
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.19
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 88, Column: 13 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 87, Column: 19 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.20
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.21
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit.loopexit.split.loop.exit15.loopexitsplit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit.loopexit.split.loop.exit15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 91, Column: 5 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 93, Column: 1 }
+Function:        fread_float
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 82, Column: 0 }
+Function:        fread_float
+Args:
+  - NumInstructions: '72'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 101, Column: 5 }
+Function:        fread_int
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.382264e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/common.c', Line: 95, Column: 1 }
+Function:        fread_int
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.906250e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.244930e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '12'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.178697e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+Function:        fread_int
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function '''
+  - Function:        fread_int
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 97, Column: 16 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 98, Column: 9 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.20
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.19
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 102, Column: 13 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 101, Column: 19 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.20
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.21
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit.loopexit.split.loop.exit15.loopexitsplit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit.loopexit.split.loop.exit15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 105, Column: 5 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/common.c', Line: 107, Column: 1 }
+Function:        fread_int
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/common.c', Line: 96, Column: 0 }
+Function:        fread_int
+Args:
+  - NumInstructions: '72'
+  - String:          ' instructions in function'
+...

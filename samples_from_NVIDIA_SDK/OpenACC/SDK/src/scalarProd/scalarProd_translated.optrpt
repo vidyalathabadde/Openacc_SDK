@@ -1,0 +1,52 @@
+Global optimization report for : __omp_offloading_38_7d2529ae__Z13scalarProdGPU_l54
+
+OMP TARGET TEAMS LOOP BEGIN at scalarProd_translated.c (54, 1)
+    remark #30012: "A" has an implicit clause "map(tofrom : A[:0])" because it is a pointer variable referenced at line:[64:20]
+    remark #30012: "B" has an implicit clause "map(tofrom : B[:0])" because it is a pointer variable referenced at line:[64:27]
+    remark #30012: "D" has an implicit clause "map(tofrom : D[:0])" because it is a pointer variable referenced at line:[66:9]
+    remark #30008: target construct transformed
+
+    OMP TEAMS BEGIN at scalarProd_translated.c (54, 1)
+        remark #30008: teams construct transformed
+
+        OMP DISTRIBUTE PARALLEL FOR BEGIN at scalarProd_translated.c (54, 1)
+            remark #30008: distribute parallel loop construct transformed
+        OMP DISTRIBUTE PARALLEL FOR END
+    OMP TEAMS END
+OMP TARGET TEAMS LOOP END
+
+LOOP BEGIN at scalarProd_translated.c (54, 1)
+
+    LOOP BEGIN at scalarProd_translated.c (62, 1)
+    LOOP END
+LOOP END
+
+LOOP BEGIN at scalarProd_translated.c (54, 1)
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: _Z18__spirv_ocl_printfPU3AS2cz
+
+DEAD STATIC FUNC: llvm.directive.region.entry
+
+DEAD STATIC FUNC: llvm.directive.region.exit
+
+DEAD STATIC FUNC: llvm.launder.invariant.group.p1
+
+DEAD STATIC FUNC: printf
+
+DEAD STATIC FUNC: scalarProdGPU
+
+DEAD STATIC FUNC: scalarProdGPU.extracted
+
+COMPILE FUNC: __omp_offloading_38_7d2529ae__Z13scalarProdGPU_l54
+   -> llvm.umin.i32 scalarProd_translated.c (54,1)
+
+---- End Inlining Report ------

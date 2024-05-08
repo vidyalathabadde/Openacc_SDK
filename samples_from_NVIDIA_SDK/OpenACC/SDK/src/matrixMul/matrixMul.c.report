@@ -1,0 +1,54 @@
+* Line 49 contains the following statement
+#pragma acc enter data copyin(A[0:hA * wA],B[0:wA * wB])
+that has been as been translated into:
+#pragma omp target enter data map(to:A[0:hA*wA],B[0:wA*wB])
+
+
+* Line 50 contains the following statement
+#pragma acc enter data create(C[0:hA * wB])
+that has been as been translated into:
+#pragma omp target enter data map(alloc:C[0:hA*wB])
+
+
+* Line 52 contains the following statement
+#pragma acc data present(A[0:hA * wA], B[0:wA * wB], C[0:hA * wB])
+that has been as been translated into:
+#pragma omp target data map(present,alloc:A[0:hA*wA],B[0:wA*wB],C[0:hA*wB])
+
+
+* Line 54 contains the following statement
+#pragma acc kernels loop independent
+that has been as been translated into:
+#pragma omp target teams loop order(concurrent)
+* WARNING(s)! Please review the translation.
+  1. The kernels construct in OpenACC is a hint to the compiler of where it should look for parallelism. OpenMP does not have a direct translation for this construct.
+
+
+* Line 56 contains the following statement
+#pragma acc loop independent
+that has been as been translated into:
+#pragma omp loop order(concurrent)
+
+
+* Line 60 contains the following statement
+#pragma acc loop independent reduction(+:sum)
+that has been as been translated into:
+#pragma omp loop reduction(+:sum) order(concurrent)
+
+
+* Line 71 contains the following statement
+#pragma acc exit data copyout(C[0:hA * wB])
+that has been as been translated into:
+#pragma omp target exit data map(from:C[0:hA*wB])
+
+
+* Line 72 contains the following statement
+#pragma acc exit data delete(A[0:hA * wA],B[0:wA * wB])
+that has been as been translated into:
+#pragma omp target exit data map(delete:A[0:hA*wA],B[0:wA*wB])
+
+
+Note the following OpenACC API calls. These have NOT been translated.
+* Line 154 contains an invocation to 'acc_init'. This is done automatically by the OpenMP runtime.
+
+

@@ -1,0 +1,11 @@
+ # set term x11
+ set term postscript landscape monochrome dashed "Helvetica" 22
+ 
+ set xlabel "Time (s)"
+ set ylabel "Total energy"
+ 
+ set output "collino3D_total_energy_semilog.eps"
+ set logscale y
+ plot "energy.dat" t 'Total energy' w l lc 1
+ pause -1 "Hit any key..."
+ 

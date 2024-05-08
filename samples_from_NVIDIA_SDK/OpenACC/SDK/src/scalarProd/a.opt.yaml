@@ -1,0 +1,102 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+Function:        openmp.descriptor_unreg
+Args:
+  - Callee:          __tgt_unregister_lib
+  - String:          ' will not be inlined into '
+  - Caller:          openmp.descriptor_unreg
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+Function:        openmp.descriptor_reg
+Args:
+  - Callee:          __tgt_register_lib
+  - String:          ' will not be inlined into '
+  - Caller:          openmp.descriptor_reg
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+Function:        openmp.descriptor_unreg
+Args:
+  - Callee:          __tgt_unregister_lib
+  - String:          ' will not be inlined into '
+  - Caller:          openmp.descriptor_unreg
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+Function:        openmp.descriptor_reg
+Args:
+  - Callee:          __tgt_register_lib
+  - String:          ' will not be inlined into '
+  - Caller:          openmp.descriptor_reg
+  - String:          ' because its definition is unavailable'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        openmp.descriptor_reg
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        openmp.descriptor_reg
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        openmp.descriptor_reg
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      entry
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        openmp.descriptor_reg
+Args:
+  - NumInstructions: '2'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        openmp.descriptor_unreg
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function '''
+  - Function:        openmp.descriptor_unreg
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        openmp.descriptor_unreg
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      entry
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        openmp.descriptor_unreg
+Args:
+  - NumInstructions: '2'
+  - String:          ' instructions in function'
+...

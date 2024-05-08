@@ -1,0 +1,6117 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 20, Column: 13 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 22, Column: 9 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 29, Column: 58 }
+Function:        make_opttable
+Args:
+  - Callee:          malloc
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 33, Column: 40 }
+Function:        make_opttable
+Args:
+  - Callee:          malloc
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 35, Column: 9 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 40, Column: 31 }
+Function:        make_opttable
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 44, Column: 13 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 58, Column: 9 }
+Function:        matchopt
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 32 }
+Function:        matchopt
+Args:
+  - Callee:          strlen
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        matchopt
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 83, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 85, Column: 21 }
+Function:        argtake
+Args:
+  - Callee:          strchr
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 88, Column: 17 }
+Function:        argtake
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 89, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 94, Column: 17 }
+Function:        argtake
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 95, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 13 }
+Function:        argproc
+Args:
+  - String:          ''''
+  - Callee:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '160'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          argproc
+  - String:          ':'
+  - Line:            '4'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+Function:        argproc
+Args:
+  - String:          ''''
+  - Callee:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '325'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 20, Column: 13 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 22, Column: 9 }
+Function:        free_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          free_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 29, Column: 58 }
+Function:        make_opttable
+Args:
+  - Callee:          malloc
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 33, Column: 40 }
+Function:        make_opttable
+Args:
+  - Callee:          malloc
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 35, Column: 9 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 40, Column: 31 }
+Function:        make_opttable
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 44, Column: 13 }
+Function:        make_opttable
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          make_opttable
+    DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 58, Column: 9 }
+Function:        matchopt
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 32 }
+Function:        matchopt
+Args:
+  - Callee:          strlen
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        matchopt
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          matchopt
+    DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            InstSunk
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        matchopt
+Args:
+  - String:          'sinking '
+  - Inst:            trunc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 83, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 85, Column: 21 }
+Function:        argtake
+Args:
+  - Callee:          strchr
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 88, Column: 17 }
+Function:        argtake
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 89, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 94, Column: 17 }
+Function:        argtake
+Args:
+  - Callee:          free
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 95, Column: 33 }
+Function:        argtake
+Args:
+  - Callee:          strdup
+  - String:          ' will not be inlined into '
+  - Caller:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 95, Column: 40 }
+Function:        argtake
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 94, Column: 17 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 58, Column: 9 }
+Function:        argproc
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 32 }
+Function:        argproc
+Args:
+  - Callee:          strlen
+  - String:          ' will not be inlined into '
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        argproc
+Args:
+  - Callee:          strncmp
+  - String:          ' will not be inlined into '
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+Function:        argproc
+Args:
+  - String:          ''''
+  - Callee:          argtake
+    DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          argproc
+    DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '325'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 95, Column: 40 }
+Function:        argtake
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 94, Column: 17 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 119, Column: 13 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: '../../common/argproc.c', Line: 108, Column: 5 }
+Function:        argproc
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: '../../common/argproc.c', Line: 58, Column: 9 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 41 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: '../../common/argproc.c', Line: 109, Column: 57 }
+Function:        argproc
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 8, Column: 1 }
+Function:        free_opttable
+Args:
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.625977e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+Function:        free_opttable
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function '''
+  - Function:        free_opttable
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 10, Column: 9 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 14, Column: 42 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.31
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 20, Column: 13 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 22, Column: 9 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 24, Column: 1 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 10, Column: 9 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.31
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 14, Column: 50 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.80
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.30
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.35
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.35
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.38
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.38
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.41
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.41
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.44
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.44
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.47
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.47
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.50
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.50
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.53
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.53
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.56
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.56
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.59
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.59
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.62
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.62
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.65
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.65
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.68
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.68
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.71
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.71
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.74
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.74
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.77
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.77
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.80
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.32
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 14, Column: 50 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 15, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 16, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.5
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 17, Column: 30 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.5
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 18, Column: 21 }
+Function:        free_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.15
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/argproc.c', Line: 9, Column: 0 }
+Function:        free_opttable
+Args:
+  - NumInstructions: '123'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 39, Column: 5 }
+Function:        make_opttable
+Args:
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.645280e+00'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.562615e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 27, Column: 1 }
+Function:        make_opttable
+Args:
+  - NumSpills:       '5'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.220703e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '12'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.506974e+00'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '15'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.102751e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+Function:        make_opttable
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function '''
+  - Function:        make_opttable
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 32, Column: 20 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 39, Column: 19 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader38.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      region.0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.47
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 40, Column: 38 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.46
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 47, Column: 32 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.53
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 47, Column: 32 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.62
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.47
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.47
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 35, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.48
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 47, Column: 32 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.9
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 41, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.46..preheader.preheader.loopexit_crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 42, Column: 27 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 41, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      region.29
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 30, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.70
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.69
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '35'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 41, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.70
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 41, Column: 9 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.71
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 43, Column: 37 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.43
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 44, Column: 13 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader._crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 0, Column: 0 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 52, Column: 1 }
+Function:        make_opttable
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/argproc.c', Line: 28, Column: 0 }
+Function:        make_opttable
+Args:
+  - NumInstructions: '162'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 69, Column: 5 }
+Function:        matchopt
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.163923e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 55, Column: 1 }
+Function:        matchopt
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '2.685547e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.119005e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '18'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.543062e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+Function:        matchopt
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function '''
+  - Function:        matchopt
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 66, Column: 14 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 0, Column: 0 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.22
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.21
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 69, Column: 19 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.22
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.22
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.23
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit.loopexit.split.loop.exit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 76, Column: 1 }
+Function:        matchopt
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/argproc.c', Line: 56, Column: 0 }
+Function:        matchopt
+Args:
+  - NumInstructions: '89'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 79, Column: 1 }
+Function:        argtake
+Args:
+  - NumVRCopies:     '9'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.832031e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+Function:        argtake
+Args:
+  - NumStackBytes:   '24'
+  - String:          ' stack bytes in function '''
+  - Function:        argtake
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 81, Column: 9 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 81, Column: 9 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 101, Column: 1 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .split
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 85, Column: 28 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 86, Column: 27 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 86, Column: 20 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 88, Column: 17 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 89, Column: 33 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 92, Column: 15 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 93, Column: 31 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 95, Column: 40 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 83, Column: 54 }
+Function:        argtake
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/argproc.c', Line: 80, Column: 0 }
+Function:        argtake
+Args:
+  - NumInstructions: '72'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 69, Column: 5 }
+Function:        argproc
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.161971e+02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 108, Column: 5 }
+Function:        argproc
+Args:
+  - NumSpills:       '2'
+  - String:          ' spills '
+  - TotalSpillsCost: '5.594750e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '13'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.530030e+01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '18'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.379628e+02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: '../../common/argproc.c', Line: 105, Column: 1 }
+Function:        argproc
+Args:
+  - NumSpills:       '5'
+  - String:          ' spills '
+  - TotalSpillsCost: '7.594750e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '13'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.530030e+01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '22'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.401090e+02'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+Function:        argproc
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function '''
+  - Function:        argproc
+  - String:          ''''
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph42
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 66, Column: 14 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .preheader.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 0, Column: 0 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .lr.ph.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.22
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.21
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.28
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 69, Column: 19 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.22
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 70, Column: 31 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.23
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 71, Column: 13 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      matchopt.exit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 118, Column: 20 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      matchopt.exit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 108, Column: 29 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 112, Column: 36 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      matchopt.exit.thread32
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '../../common/argproc.c', Line: 128, Column: 1 }
+Function:        argproc
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .loopexit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: '../../common/argproc.c', Line: 106, Column: 0 }
+Function:        argproc
+Args:
+  - NumInstructions: '125'
+  - String:          ' instructions in function'
+...

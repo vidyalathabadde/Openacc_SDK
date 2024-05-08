@@ -1,0 +1,20 @@
+Global optimization report for : openmp.descriptor_reg
+=================================================================
+
+Global optimization report for : openmp.descriptor_unreg
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: openmp.descriptor_unreg
+   -> EXTERN: __tgt_unregister_lib /tmp/icx-cddb321167/a-32211d.bc
+
+COMPILE FUNC: openmp.descriptor_reg
+   -> EXTERN: __tgt_register_lib /tmp/icx-cddb321167/a-32211d.bc
+
+---- End Inlining Report ------
